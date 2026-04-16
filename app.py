@@ -7,7 +7,7 @@ import pickle
 # 1. Load Pipeline
 try:
     # Menggunakan forward slash agar tidak terjadi escape character error
-    with open('data/insurance_pipeline.sav', 'rb') as f:
+    with open('insurance_pipeline.sav', 'rb') as f:
         model_pipeline = pickle.load(f)
 except FileNotFoundError:
     st.error("❌ File 'insurance_pipeline.sav' tidak ditemukan di folder data!")
