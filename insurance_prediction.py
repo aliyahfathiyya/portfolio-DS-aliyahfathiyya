@@ -8,7 +8,7 @@ from sklearn.pipeline import Pipeline
 # --- LANGKAH 1: MUAT DATA ---
 # Pastikan file insurance.csv ada di folder yang sama atau tulis path lengkapnya
 try:
-    df = pd.read_csv('/workspaces/portfolio-DS-aliyahfathiyya/Data/insurance.csv') 
+    df = pd.read_csv(/insurance.csv') 
 except FileNotFoundError:
     # Jika kamu pakai dataset dari kagglehub di notebook, 
     # kamu harus download manual csv-nya dan taruh di folder project ini
